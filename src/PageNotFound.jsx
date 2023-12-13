@@ -1,7 +1,7 @@
 const PageNotFound = () => {
 
     return (
-        <div>Page not found...</div>
+        <div data-testid="message">Page not found...</div>
     )
 }
 
