@@ -9,7 +9,7 @@ const Donor = ({ donor, onDeleteButtonClick }) => {
     const onShowDetailsButton = useNavigate();
     return (
         <>
-
+{/* Conditional Rendering is nor working*/}
         {!isDeleted &&
             <Col>
                 <Card style={{ width: '18rem' }}>

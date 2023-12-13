@@ -68,7 +68,7 @@ const Donors = () => {
         axios
         .delete(`https://dummyjson.com/users/${id}`)
         .then((response)=>{
-            console.log("delete response", response.data.id)  
+            console.log("delete response", response.data)  
 
         })
         .catch((error)=>{
@@ -124,7 +124,7 @@ const Donors = () => {
                     name="gender"
                     placeholder="Gender"
                     onChange={handleForm} />
-                <button>Submit</button>
+                <button>Register</button>
 
                 <Container>
                     <Row>
